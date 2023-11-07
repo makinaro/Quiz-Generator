@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcard Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div dark-mode>
+        <!-- <button id="dark-mode-toggle">Dark mode</button> -->
+    </div>
+    <div class="heading">
+        <div class="wrapper">
+            <svg>
+                <text x="50%" y="50%" dy=".35em" text-anchor="middle">
+                    Quiz Generator
+                </text>
+            </svg>
+        </div>
+    </div>
+    <div class="container">
+        <div class="input-form">
+            <div class="input-form-wrapper">
+                <div class="add-question">
+                    <div class="input-question">
+                        <p id="warning" class="warns"></p>
+                        <input id="question" type="text" name="question" placeholder="Enter the question.">
+                        <input id="answer" type="text" name="answer" placeholder="Enter the answer.">
+                    </div>
+                    <div class="add-button">
+                        <button id="add-question-button">Add a question</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="question-table">
+            <h2>Question List</h2>
+            <table id="question-list">
+                <thead>
+                    <tr>
+                        <th>Question</th>
+                        <th>Answer</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="start-quiz">
+        <button id="start-quiz-button">Start Quiz</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
