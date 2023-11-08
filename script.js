@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", function () {
     start.addEventListener("click", function (event) {
         // Check if the clicked element is the start button
         if (event.target === start) {
-            window.location.href = "./start.html";
+            window.location.href = "start.html";
         }
     });
 });
