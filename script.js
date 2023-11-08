@@ -47,3 +47,14 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
+
+document.addEventListener("DOMContentLoaded", function () {
+    var start = document.getElementById("start-quiz-button");
+    start.addEventListener("click", function (event) {
+        // Check if the clicked element is the start button
+        if (event.target === start) {
+            window.location.href = "./start";
+        }
+    });
+});
+
