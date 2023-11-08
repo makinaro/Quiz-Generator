@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 .heading{
     text-align: center;
@@ -88,6 +90,7 @@ input{
     border: 1px solid #ccc;
     border-collapse: collapse;
     font-size: 1vw 1vh;
+    font-family: "Rubik", sans-serif;
 }
 .question-table table tr, td{
     border: 1px solid #ccc;
@@ -147,10 +150,10 @@ svg text {
 @keyframes stroke {
 	0%   {
 		fill: rgba(0,0,0,0); stroke: rgba(0,0,0,1);
-		stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
+		stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 1;
 	}
 	70%  {fill: rgba(0,0,0,0); stroke: rgba(0,0,0,1); }
-	80%  {fill: rgba(0,0,0,0); stroke: rgba(0,0,0,1); stroke-width: 3; }
+	80%  {fill: rgba(0,0,0,0); stroke: rgba(0,0,0,1); stroke-width: 1; }
 	100% {
 		fill: rgba(0,0,0,1); stroke: rgba(0,0,0,0);
 		stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
